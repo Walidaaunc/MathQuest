@@ -38,21 +38,13 @@ The final component, the SQL database, consists of two tables. The first consist
 - Everything else corresponds to client-side code.
 - The SQL database is not stored as a local file but is accessed via a remote Azure server (comp426.database.windows.net). Therefore, there is no database file (such as a .sqlite file) to include in the repository.
 
-## For the sake of grading simplicity, we’ve detailed the functionality below according to each requirement:
-- **Interactive and Event-Driven Front End (30 points):** Our front-end design is interactive and driven by user events!
-- **RESTful CRUD API Back End (30 points):** The NodeJS server implements a RESTful CRUD API serving two resources: user-answers and correct-answers. The user-answers endpoint enables clients to perform create, read, update, and delete operations on user-answers and retrieve the correct answer to the previous problem. The correct-answers endpoint serves the WebSocket server with the correct answer obtained from the WolframAlpha API for the current math question. Since the server retrieves data from the API and passes it to the WebSocket server, only the read operation is relevant, barring create, update, and delete operations.
-- **Utilization of Third-Party API (10 points):** Our server integrates the WolframAlpha API to fetch accurate answers to mathematical problems.
-- **Implementation of Session-Persistent State (10 points):** We maintain a session-persistent state by storing user credentials, hashed passwords, gold, XP, and power-up information in an SQL database.
-- **Emphasis on User Experience (10 points):** We've endeavored to create a user-friendly experience, emphasizing ease of use and a consistent theme.
-- **Quality of Presentation Video (10 points):** The presentation is included in this README file and linked below. We are excited to hear feedback!
-
 ## Final Notes
 You can access the live website by visiting the following URL: 
 [Math Quest: Gold Rush](http://426.absarka.com/SignUp.html)
 
 Please note that you'll be redirected to the HTTPS version. However, the HTTPS version is currently unavailable. To access the correct website, please double-click on the address bar and change "HTTPS" to "HTTP".
 
-For the YouTube demonstration video, please follow this link: [Math Quest Demo](https://www.youtube.com/watch?v=RB89VPqFkRQ). Please note that, in some cases, the YouTube video defaults to displaying at a very low resolution. However, higher resolutions are available; in order to improve the resolution, please click the gear icon in the YouTube video menu and select "1080p" as the resolution. Thank you for taking the time to review this project! If you have any questions or concerns, please don't hesitate to contact us at
+For the YouTube demonstration video, please follow this link: [Math Quest Demo](https://www.youtube.com/watch?v=RB89VPqFkRQ). Please note that, in some cases, the YouTube video defaults to displaying at a very low resolution. However, higher resolutions are available; in order to improve the resolution, please click the gear icon in the YouTube video menu and select "1080p" as the resolution. Thank you for taking the time to review this webapp! If you have any questions or concerns, please don't hesitate to contact us at
  - bh4@unc.edu
  - ssahebi@unc.edu
  - walidaa@unc.edu
