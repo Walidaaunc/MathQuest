@@ -44,7 +44,7 @@ You can access the live website by visiting the following URL:
 
 Please note that you'll be redirected to the HTTPS version. However, the HTTPS version is currently unavailable. To access the correct website, please double-click on the address bar and change "HTTPS" to "HTTP".
 
-For the YouTube demonstration video, please follow this link: [Math Quest Demo](https://www.youtube.com/watch?v=RB89VPqFkRQ). Please note that, in some cases, the YouTube video defaults to displaying at a very low resolution. However, higher resolutions are available; in order to improve the resolution, please click the gear icon in the YouTube video menu and select "1080p" as the resolution. Thank you for taking the time to review this webapp! If you have any questions or concerns, please don't hesitate to contact us at
+For the YouTube demonstration video, please follow this link: [Math Quest Demo](https://youtu.be/gMhwrYIMRfM). Please note that, in some cases, the YouTube video defaults to displaying at a very low resolution. However, higher resolutions are available; in order to improve the resolution, please click the gear icon in the YouTube video menu and select "1080p" as the resolution. Thank you for taking the time to review this webapp! If you have any questions or concerns, please don't hesitate to contact us at
  - bh4@unc.edu
  - ssahebi@unc.edu
  - walidaa@unc.edu
